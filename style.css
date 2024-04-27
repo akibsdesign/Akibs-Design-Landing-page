@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#head{
+    width: 100%;
+}
+#head img{
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+    margin-top: -10px;
+}
+#content{
+        width: 100%;
+        height: 100%;
+}
+#left{
+    width: 50%;
+    height: 100%;
+}
+#who {
+    color: #e6a216;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 50px;
+    font-family: Poppins, sans-serif;
+
+}
+#left #points{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+#points>li{
+    padding: 10px;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+}
+#points>li>b{
+    color: #e6a216;
+}
+#links{
+    width: 50%;
+    height: 10%;
+    margin-left: 5%;
+    padding-top: 10px;
+}
+#links>a{
+    color: white;
+    background-color: #e6a216;
+    text-decoration: none;
+    font-family: Poppins, "sans-serif";
+    font-weight: bolder;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 25px;
+}
+#footer{
+    border-top: 1px solid #e6a216;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+#footer a{
+    margin-top: 15px;
+    color: #fff;
+}
+.fa-brands {
+    margin: 0px 20px;
+}
+.fa-brands a>i{
+    width: 10px;
+}
+
+.fa-brands:hover{
+    color: #e6a216;
+}
+.fa-solid{
+     margin: 0px 20px;
+}
+.fa-solid:hover{
+    color: red;
+}
+#right{
+    width: 50%;
+    height: 100%;
+}
+#right img{
+    margin-left: 105%;
+    margin-top: -650px;
+    width: 80%;
+    height: 80%;
+}
+#name{
+    width: 100%;
+    height: inherit;
+}
+#name h1{
+    color: #e6a216;
+    font-family:Poppins, "sans-serif";
+    margin-left: 70%;
+    letter-spacing: 2px;
+}
+.circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+  }
+  ::selection{
+    background-color: #e6a216;
+    color: #000;
+  }
