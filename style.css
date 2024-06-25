@@ -128,18 +128,3 @@
     background-color: #e6a216;
     color: #000;
   }
-
-  @media (min-width: 768px) {
-    #main {
-        flex-direction: row;
-        align-items: flex-start; /* Align items at the top */
-    }
-
-    #right {
-        width: 50%; /* 50% width for larger screens */
-    }
-
-    #left {
-        width: 50%; /* 50% width for larger screens */
-    }
-}
